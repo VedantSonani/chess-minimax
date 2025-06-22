@@ -12,6 +12,7 @@ A Python-based chess game that includes a playable interface and an AI opponent 
 * ✅ Simple, portable structure with no external GUI library required
 
 
+#
 🗂 Project Structure
 
 chess\_minimax/
@@ -21,6 +22,7 @@ chess\_minimax/
 │   ├── bK.png, wK.png, ...     # Black/white pieces (King, Queen, etc.)
 
 
+#
 🚀 How It Works
 
 1. The chess\_server.ipynb runs a Flask API that receives a FEN string and responds with the best move using Minimax.
@@ -28,6 +30,7 @@ chess\_minimax/
 3. The user plays white; the server plays black.
 
 
+#
 🔌 Setting Up the Server (Google Colab)
 
 1. Open chess\_server.ipynb in Google Colab.
@@ -43,6 +46,7 @@ chess\_minimax/
 3. Copy the ngrok URL.
 
 
+#
 📝 Set the Server URL in main\_v3.py
 
 At the top of main\_v3.py, update this line with your ngrok URL:
@@ -53,6 +57,7 @@ COLAB_URL = "url123/best_move"
 Replace url123 with your actual session’s ngrok subdomain.
 
 
+#
 ▶️ Running the Game
 
 After pasting your ngrok URL:
@@ -67,6 +72,7 @@ python main\_v3.py
 4. The AI will respond after each move based on the server-side Minimax prediction.
 
 
+#
 📦 Requirements
 
 * Python 3.x
@@ -91,6 +97,7 @@ bash
 pip install flask flask\_cors chess pygame requests pyngrok
 
 
+#
 🧠 Minimax Logic
 
 * The server evaluates moves using the Minimax algorithm with depth-limited search.

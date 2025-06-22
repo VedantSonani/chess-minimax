@@ -2,7 +2,7 @@
 
 A Python-based chess game that includes a playable interface and an AI opponent using the Minimax algorithm. The AI logic is hosted via a Flask server (designed to run on Google Colab), and the frontend runs locally using main\_v3.py. This setup allows the user to play against a computer with basic move prediction capabilities powered by Minimax.
 
-
+#
 📌 Features
 
 * 👨‍💻 Local playable chess board with graphical assets

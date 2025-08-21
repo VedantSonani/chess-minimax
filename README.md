@@ -15,12 +15,13 @@ A Python-based chess game that includes a playable interface and an AI opponent 
 #
 🗂 Project Structure
 
+```
 chess\_minimax/
 ├── main\_v3.py                  # Frontend GUI chess board (client)
 ├── chess\_server.ipynb          # Backend Flask server (run in Colab)
 ├── assets\_v3/                  # PNG images for chess pieces
 │   ├── bK.png, wK.png, ...     # Black/white pieces (King, Queen, etc.)
-
+```
 
 #
 🚀 How It Works
